@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5D5B4843287705BC005AFAF7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B4842287705BC005AFAF7 /* Theme.swift */; };
 		5D5B48452877085E005AFAF7 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B48442877085E005AFAF7 /* DailyScrum.swift */; };
+		5D5B48472877091D005AFAF7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B48462877091D005AFAF7 /* CardView.swift */; };
 		5DED1E742876F4CF004F1789 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED1E642876F4CD004F1789 /* ScrumdingerApp.swift */; };
 		5DED1E752876F4CF004F1789 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED1E642876F4CD004F1789 /* ScrumdingerApp.swift */; };
 		5DED1E762876F4CF004F1789 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED1E652876F4CD004F1789 /* MeetingView.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		5D5B4842287705BC005AFAF7 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		5D5B48442877085E005AFAF7 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		5D5B48462877091D005AFAF7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5DED1E642876F4CD004F1789 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		5DED1E652876F4CD004F1789 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		5DED1E662876F4CF004F1789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				5DED1E642876F4CD004F1789 /* ScrumdingerApp.swift */,
 				5DED1E652876F4CD004F1789 /* MeetingView.swift */,
 				5DED1E662876F4CF004F1789 /* Assets.xcassets */,
+				5D5B48462877091D005AFAF7 /* CardView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				5D5B4843287705BC005AFAF7 /* Theme.swift in Sources */,
 				5DED1E762876F4CF004F1789 /* MeetingView.swift in Sources */,
 				5DED1E742876F4CF004F1789 /* ScrumdingerApp.swift in Sources */,
+				5D5B48472877091D005AFAF7 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
