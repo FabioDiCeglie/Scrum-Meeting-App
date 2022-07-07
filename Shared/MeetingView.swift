@@ -10,6 +10,7 @@ struct MeetingView: View {
                         .font(.caption)
                 Label("300", systemImage: "hourglass.bottomhalf.fill")
                 }
+                .padding()
                 Spacer()
                 VStack(alignment: .center){
                 Text("Ciao")
