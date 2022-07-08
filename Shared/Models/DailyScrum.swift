@@ -1,4 +1,4 @@
-import Foundation
+import SwiftUI
 
 struct DailyScrum {
     var title: String
