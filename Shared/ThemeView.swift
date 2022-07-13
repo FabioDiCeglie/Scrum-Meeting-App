@@ -4,15 +4,14 @@ struct ThemeView: View {
     let theme: Theme
     
     var body: some View {
-        ZStack{
+        ZStack {
             RoundedRectangle(cornerRadius: 4)
-                    .fill(theme.mainColor)
+                .fill(theme.mainColor)
             Label(theme.name, systemImage: "paintpalette")
-            padding(4)
+                .padding(4)
         }
         .foregroundColor(theme.accentColor)
         .fixedSize(horizontal: false, vertical: true)
-      
     }
 }
 

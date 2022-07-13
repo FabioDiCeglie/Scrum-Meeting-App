@@ -28,10 +28,10 @@ enum Theme: String, CaseIterable, Identifiable {
         Color(rawValue)
     }
     var name: String {
-           rawValue.capitalized
-       }
+        rawValue.capitalized
+    }
     var id: String {
-            name
-        }
+        name
+    }
 }
 
