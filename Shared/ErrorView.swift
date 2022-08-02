@@ -1,10 +1,11 @@
 import SwiftUI
 
 struct ErrorView: View {
-    
     let errorWrapper: ErrorWrapper
+    @Environment(\.dismiss) private var dismiss
     
     var body: some View {
+        NavigationView {
         VStack {
             Text("An error has occurred!")
                 .font(.title)
@@ -19,6 +20,16 @@ struct ErrorView: View {
               .padding()
               .background(.ultraThinMaterial)
               .cornerRadius(16)
+              .navigationBarTitleDisplayMode(.inline)
+              .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button("Dismiss") {
+                                               dismiss()
+                                           }
+                               
+                           }
+                       }
+        }
     }
 }
 
