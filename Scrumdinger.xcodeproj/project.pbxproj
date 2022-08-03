@@ -37,6 +37,8 @@
 		5D8CB82B289ADC0700C5BBF4 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CB829289ADC0700C5BBF4 /* MeetingTimerView.swift */; };
 		5D8CB82D289ADD0900C5BBF4 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CB82C289ADD0900C5BBF4 /* SpeakerArc.swift */; };
 		5D8CB82E289ADD0900C5BBF4 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CB82C289ADD0900C5BBF4 /* SpeakerArc.swift */; };
+		5D8CB831289AE02F00C5BBF4 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CB830289AE02F00C5BBF4 /* SpeechRecognizer.swift */; };
+		5D8CB832289AE02F00C5BBF4 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CB830289AE02F00C5BBF4 /* SpeechRecognizer.swift */; };
 		5D9C122328776CB700CC28CC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C122228776CB700CC28CC /* Theme.swift */; };
 		5D9C122428776CB700CC28CC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C122228776CB700CC28CC /* Theme.swift */; };
 		5D9C122628776CE400CC28CC /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C122528776CE400CC28CC /* DailyScrum.swift */; };
@@ -71,6 +73,8 @@
 		5D8CB8262899A71000C5BBF4 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		5D8CB829289ADC0700C5BBF4 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		5D8CB82C289ADD0900C5BBF4 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
+		5D8CB82F289ADFC900C5BBF4 /* Scrumdinger--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Scrumdinger--iOS--Info.plist"; sourceTree = "<group>"; };
+		5D8CB830289AE02F00C5BBF4 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeechRecognizer.swift; path = ../../../../Downloads/TranscribingSpeechToText/StartingProject/Scrumdinger/Models/SpeechRecognizer.swift; sourceTree = "<group>"; };
 		5D9C122228776CB700CC28CC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		5D9C122528776CE400CC28CC /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		5D9C122828776D2800CC28CC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -109,6 +113,7 @@
 				5D9C122228776CB700CC28CC /* Theme.swift */,
 				5D0181AD287F42B800764C9C /* ScrumTimer.swift */,
 				5D9C122528776CE400CC28CC /* DailyScrum.swift */,
+				5D8CB830289AE02F00C5BBF4 /* SpeechRecognizer.swift */,
 				5D2E78E928907A0900949E6E /* History.swift */,
 				5D48ACE72893063100EC06DF /* ScrumStore.swift */,
 				5D8CB8232899A6A500C5BBF4 /* ErrorWrapper.swift */,
@@ -119,6 +124,7 @@
 		5DED1E5E2876F4CD004F1789 = {
 			isa = PBXGroup;
 			children = (
+				5D8CB82F289ADFC900C5BBF4 /* Scrumdinger--iOS--Info.plist */,
 				5DED1E632876F4CD004F1789 /* Shared */,
 				5DED1E722876F4CF004F1789 /* macOS */,
 				5DED1E6C2876F4CF004F1789 /* Products */,
@@ -280,6 +286,7 @@
 				5D9C122328776CB700CC28CC /* Theme.swift in Sources */,
 				5D9C122F28784F4200CC28CC /* ScrumsView.swift in Sources */,
 				5DED1E762876F4CF004F1789 /* MeetingView.swift in Sources */,
+				5D8CB831289AE02F00C5BBF4 /* SpeechRecognizer.swift in Sources */,
 				5D8CB8272899A71000C5BBF4 /* ErrorView.swift in Sources */,
 				5DED1E742876F4CF004F1789 /* ScrumdingerApp.swift in Sources */,
 				5D6646C3287D9C1800C5BB6D /* ThemeView.swift in Sources */,
@@ -309,6 +316,7 @@
 				5D9C122428776CB700CC28CC /* Theme.swift in Sources */,
 				5D9C123028784F4200CC28CC /* ScrumsView.swift in Sources */,
 				5DED1E772876F4CF004F1789 /* MeetingView.swift in Sources */,
+				5D8CB832289AE02F00C5BBF4 /* SpeechRecognizer.swift in Sources */,
 				5D8CB8282899A71000C5BBF4 /* ErrorView.swift in Sources */,
 				5DED1E752876F4CF004F1789 /* ScrumdingerApp.swift in Sources */,
 				5D6646C4287D9C1800C5BB6D /* ThemeView.swift in Sources */,
@@ -439,6 +447,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scrumdinger--iOS--Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -468,6 +479,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scrumdinger--iOS--Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
